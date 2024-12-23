@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: gilroy;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background: #00FF9C;
+}
+.home {
+  height: 100%;
+  width: 100%;
+  background: #b6ffa1;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  gap: 1rem;
+}
